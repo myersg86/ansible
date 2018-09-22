@@ -17,7 +17,6 @@
 #    - include: roles/common/tasks/spideroak.yml
 #    - include: roles/common/tasks/repo/sublimetext.yml
 #    - include: roles/common/tasks/tlp.yml
-#    - include: roles/common/tasks/upgrade.yml
     - include: roles/common/tasks/cleanup.yml
 #    - include: roles/common/tasks/ssh-permissions.yml
 #    - include: roles/common/tasks/bash.yml
