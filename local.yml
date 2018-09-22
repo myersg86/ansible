@@ -1,4 +1,4 @@
-# Standards: 2.5
+# Standards: 2.6
 ---
 # local.yml catch-all playbook
 - hosts: localhost
