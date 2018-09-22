@@ -1,6 +1,6 @@
 # Standards: 2.6
 ---
-# centos7 basic etup playbook
+# centos7 basic setup playbook
 - hosts: localhost
   become: yes
   become_method: su
