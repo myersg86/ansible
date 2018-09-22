@@ -1,8 +1,16 @@
-- hosts: localhost local element env
-  become: true
+# Standards: 2.6
+---
+# local.yml catch-all playbook
+- hosts: localhost
+  become: yes
+  become_method: su
+  remote_user: root
   become_user: root
-
+  connection: local
   tasks:
+    - include: roles/common/tasks/update.yml
+    - include: roles/common/tasks/upgrade.yml
+    - include: roles/common/tasks/cleanup.yml
     # - include: tasks/dropbox-setup.yml
     - include: tasks/update.yml
     - include: tasks/upgrade.yml
