@@ -1,13 +1,16 @@
-- hosts: localhost local element env gthinkpad
-#  become: true
+# Standards: 2.5
+---
+# local.yml playbook
+- hosts: localhost
   become: yes
   become_method: su
   remote_user: root
   become_user: root
-
+  connection: local
   tasks:
     - include: roles/common/tasks/update.yml
     - include: roles/common/tasks/upgrade.yml
+    - include: roles/common/tasks/cleanup.yml
 #    - include: roles/common/tasks/repo/chrome.yml
 #    - include: roles/common/tasks/repo/typora.yml
 #    - include: roles/common/tasks/repo/all-combined.yml
@@ -17,7 +20,6 @@
 #    - include: roles/common/tasks/spideroak.yml
 #    - include: roles/common/tasks/repo/sublimetext.yml
 #    - include: roles/common/tasks/tlp.yml
-    - include: roles/common/tasks/cleanup.yml
 #    - include: roles/common/tasks/ssh-permissions.yml
 #    - include: roles/common/tasks/bash.yml
 #    - include: roles/common/tasks/vim-runtime.yml
