@@ -1,8 +1,13 @@
-- hosts: localhost local element env
-  become: true
+# Standards: 2.6
+---
+# update.yml universal updater playbook
+- hosts: localhost
+  become: yes
+  become_method: su
+  remote_user: root
   become_user: root
-
+  connection: local
   tasks:
-    - include: tasks/update.yml
-    - include: tasks/upgrade.yml
-    - include: tasks/cleanup.yml
+#  - include: roles/common/tasks/update.yml
+#  - include: roles/common/tasks/upgrade.yml
+#  - include: roles/common/tasks/cleanup.yml
