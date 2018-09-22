@@ -1,4 +1,0 @@
----
-
-- name: Install Slack
-  command: snap install slack --classic

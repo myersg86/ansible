@@ -1,4 +1,0 @@
-- apt_repository:
-    repo: ppa:openjdk-r/ppa
-    state: present
-    update_cache: yes

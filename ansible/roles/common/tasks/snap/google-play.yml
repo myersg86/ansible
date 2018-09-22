@@ -1,2 +1,0 @@
-- name: Install Slack
-  command: snap install google-play-music-desktop-player
