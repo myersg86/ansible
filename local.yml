@@ -24,3 +24,12 @@
 #    - include: roles/common/tasks/bash.yml
 #    - include: roles/common/tasks/vim-runtime.yml
 #    - include: roles/common/tasks/vim.yml
+    - include: roles/common/tasks/update.yml
+    - include: roles/common/tasks/upgrade.yml
+    - include: roles/common/tasks/cleanup.yml
+    # - include: tasks/dropbox-setup.yml
+    - include: tasks/update.yml
+    - include: tasks/upgrade.yml
+    - include: tasks/cleanup.yml
+    - include: tasks/repo/all-combined.yml
+    - include: tasks/apt-install.yml
