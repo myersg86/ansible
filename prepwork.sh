@@ -2,7 +2,7 @@
 
 # Install git
 sudo apt update
-sudo apt-get install -y build-essentials git git-core software-properties-common 
+sudo apt-get install -y build-essentials git git-core software-properties-common
 
 # Install ansible
 if ! grep -q "ansible/ansible" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
