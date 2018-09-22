@@ -1,0 +1,11 @@
+# Standards: 2.6
+---
+# red canyon weathercenter playbook
+- hosts: localhost
+  become: yes
+  become_method: su
+  remote_user: root
+  become_user: root
+  connection: local
+  tasks:
+  - include: roles/common/tasks/update.yml
