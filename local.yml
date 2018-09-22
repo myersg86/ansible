@@ -1,6 +1,6 @@
 # Standards: 2.5
 ---
-# local.yml playbook
+# local.yml catch-all playbook
 - hosts: localhost
   become: yes
   become_method: su
