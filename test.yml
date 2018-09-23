@@ -1,6 +1,6 @@
 # Standards: 2.6
 ---
-# test.yml - catch-all playbook
+# test.yml - testing/tests playbook
 - hosts: localhost
   become: yes
   become_method: su
