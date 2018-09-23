@@ -11,7 +11,7 @@
   - include: roles/common/tasks/update.yml
   - include: roles/common/tasks/upgrade.yml
   - include: roles/common/tasks/cleanup.yml
-  # - include: tasks/dropbox-setup.yml
+  # - include: roles/common/tasks/dropbox-setup.yml
   - include: roles/common/tasks/update.yml
   - include: roles/common/tasks/upgrade.yml
   - include: roles/common/tasks/cleanup.yml
