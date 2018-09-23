@@ -12,8 +12,8 @@
   - include: roles/common/tasks/upgrade.yml
   - include: roles/common/tasks/cleanup.yml
   # - include: tasks/dropbox-setup.yml
-  - include: tasks/update.yml
-  - include: tasks/upgrade.yml
-  - include: tasks/cleanup.yml
-  - include: tasks/repo/all-combined.yml
-  - include: tasks/apt-install.yml
+  - include: roles/tasks/update.yml
+  - include: roles/tasks/upgrade.yml
+  - include: roles/tasks/cleanup.yml
+  - include: roles/tasks/repo/all-combined.yml
+  - include: roles/tasks/apt-install.yml
