@@ -1,3 +1,6 @@
+# https://computingforgeeks.com/install-snapd-snap-applications-centos-7/
+# https://docs.ansible.com/ansible/latest/modules/yum_repository_module.html#yum-repository-module
+
 yum install epel-release
 yum install yum-plugin-copr
 
