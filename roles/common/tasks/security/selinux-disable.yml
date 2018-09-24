@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# setenforce 0
+- name: setenforce 0 (no selinux)
+  command: /usr/sbin/setenforce 0
