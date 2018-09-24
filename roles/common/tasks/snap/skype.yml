@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install skype
+- name: Install skype
+  command: snap install skype --classic
