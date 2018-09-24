@@ -1,4 +1,5 @@
+# Standards: 2.6
 ---
-
-- name: Install Slack
+# Install slack
+- name: Install slack
   command: snap install slack --classic
