@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install docker
+- name: Install docker
+  command: snap install docker
