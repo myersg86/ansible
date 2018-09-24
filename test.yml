@@ -9,5 +9,5 @@
   connection: local
   tasks:
   - include: update.yml
-  - include: roles/common/tasks/deb/atom.yml
+  # - include: roles/common/tasks/deb/atom.yml
   # - include: roles/common/tasks/copy-test.yml
