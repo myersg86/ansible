@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install pycharm-community
+- name: Install pycharm-community
+  command: snap install pycharm-community
