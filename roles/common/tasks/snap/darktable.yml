@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install darktable
+- name: Install darktable
+  command: snap install darktable
