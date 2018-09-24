@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install vlc
+- name: Install vlc
+  command: snap install vlc
