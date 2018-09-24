@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install easy-disk-cleaner
+- name: Install easy-disk-cleaner
+  command: snap install easy-disk-cleaner
