@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install inkscape vector graphics editor
+- name: Install inkscape
+  command: snap install inkscape
