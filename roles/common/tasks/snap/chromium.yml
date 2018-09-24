@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install chromium
+- name: Install chromium
+  command: snap install chromium
