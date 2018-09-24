@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install snapd
+- name: Install snapd
+
