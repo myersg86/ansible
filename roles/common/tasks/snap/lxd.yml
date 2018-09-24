@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install lxd
+- name: Install lxd
+  command: snap install lxd
