@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install gimp
+- name: Install gimp
+  command: snap install gimp
