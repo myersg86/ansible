@@ -2,4 +2,4 @@
 ---
 # copy test.txt
 - name: copy operation
-  copy: src=test.txt dest=/tmp/test.txt
+  copy: src=test.txt dest=/tmp/test-success.txt
