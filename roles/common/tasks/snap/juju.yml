@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install juju
+- name: Install juju
+  command: snap install juju --classic
