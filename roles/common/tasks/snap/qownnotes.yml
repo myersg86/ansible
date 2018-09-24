@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install qownnotes markdown editor/notebook
+- name: Install qownnotes
+  command: snap install qownnotes
