@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install nextcloud-client
+- name: Install nextcloud-client
+  command: snap install nextcloud-client
