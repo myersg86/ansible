@@ -1,0 +1,15 @@
+# Standards: 2.5
+---
+#
+- name: install desktop packages
+  apt:
+    name: '{{ item }}'
+    state: present
+    update_cache: yes
+  become: yes
+  with_items:
+  - git
+  - vim
+  - xfce4
+  - xfce4-goodies
+  - ubuntu-restricted-extras
