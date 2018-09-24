@@ -11,5 +11,6 @@
   - include: roles/common/tasks/update.yml
   - include: roles/common/tasks/upgrade.yml
   - include: roles/common/tasks/cleanup.yml
+  - include: roles/common/tasks/ansible/command-warnings-off.yml
   # - include: roles/common/tasks/deb/atom.yml
   # - include: roles/common/tasks/copy-test.yml
