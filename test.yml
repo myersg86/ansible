@@ -8,6 +8,8 @@
   become_user: root
   connection: local
   tasks:
-  - include: update.yml
+  - include: roles/common/tasks/update.yml
+  - include: roles/common/tasks/upgrade.yml
+  - include: roles/common/tasks/cleanup.yml
   # - include: roles/common/tasks/deb/atom.yml
   # - include: roles/common/tasks/copy-test.yml
