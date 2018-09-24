@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install rclone
+- name: Install rclone
+  command: snap install rclone
