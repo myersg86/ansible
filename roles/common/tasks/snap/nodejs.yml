@@ -1,2 +1,5 @@
-- name: Install Slack
-  command: snap install node
+# Standards: 2.6
+---
+# Install NodeJS
+- name: Install NodeJS
+  command: snap install node --channel=10/stable --classic
