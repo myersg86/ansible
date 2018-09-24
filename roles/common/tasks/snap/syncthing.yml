@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install syncthing
+- name: Install syncthing
+  command: snap install syncthing
