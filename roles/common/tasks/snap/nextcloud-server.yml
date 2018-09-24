@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install nextcloud server
+- name: Install nextcloud server
+  command: snap install nextcloud
