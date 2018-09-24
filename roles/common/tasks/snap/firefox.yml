@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install firefox
+- name: Install firefox
+  command: snap install firefox
