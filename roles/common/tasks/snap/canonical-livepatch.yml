@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install canonical-livepatch
+- name: Install canonical-livepatch
+  command: snap install canonical-livepatch
