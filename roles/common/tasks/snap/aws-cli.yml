@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install aws-cli
+- name: Install aws-cli
+  command: snap install aws-cli --classic
