@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install htop
+- name: Install htop
+  command: snap install htop
