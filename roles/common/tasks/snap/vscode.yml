@@ -1,2 +1,5 @@
-- name: Install Slack
-  command:  snap install vscode
+# Standards: 2.6
+---
+# Install VSCode
+- name: Install VSCode
+  command:  snap install vscode --classic
