@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install ffmpeg
+- name: Install ffmpeg
+  command: snap install ffmpeg
