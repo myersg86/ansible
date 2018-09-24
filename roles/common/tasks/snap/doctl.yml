@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install digitalocean command-line client
+- name: Install doctl
+  command: snap install doctl
