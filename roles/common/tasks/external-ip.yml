@@ -1,0 +1,5 @@
+# Standards 2.5
+---
+# get external ip (if available)
+- name: get external ip (if available)
+  shell: "curl http://icanhazip.com"
