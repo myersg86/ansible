@@ -2,4 +2,9 @@
 ---
 # Install snapd
 - name: Install snapd
-
+  apt:
+    name: snapd
+    state: latest
+  # dnf:
+  #   name: snapd
+  #   state: latest
