@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install NAME
+- name: Install NAME
+  command: snap install spotify
