@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install speedy-duplicate-finder
+- name: Install speedy-duplicate-finder
+  command: snap install speedy-duplicate-finder
