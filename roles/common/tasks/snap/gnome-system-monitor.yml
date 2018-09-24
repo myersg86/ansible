@@ -1,0 +1,5 @@
+# Standards: 2.6
+---
+# Install gnome-system-monitor
+- name: Install gnome-system-monitor
+  command: snap install gnome-system-monitor
