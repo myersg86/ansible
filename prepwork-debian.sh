@@ -5,14 +5,6 @@ set -v
 sudo apt update &&
 sudo apt-get install -y apt aptitude build-essentials dirmngr git git-core software-properties-common &&
 
-# Install ansible (ubuntu)
-if ! grep -q "ansible/ansible" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
-    echo "Adding Ansible PPA"
-    sudo apt-add-repository ppa:ansible/ansible -y
-else
-    echo "Ansible already installed"
-fi
-
 # Install ansible (debian)
 if ! grep -q "ansible/ansible" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
     echo "Adding Ansible keys "
