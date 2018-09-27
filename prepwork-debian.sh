@@ -1,4 +1,5 @@
 #!/bin/bash
+set -v
 
 # Install git & dependencies/recommended (debian/ubuntu)
 sudo apt update
