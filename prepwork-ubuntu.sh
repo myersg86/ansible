@@ -12,18 +12,6 @@ else
     echo "Ansible already installed"
 fi
 
-# Install ansible (debian)
-if ! grep -q "ansible/ansible" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
-    echo "Adding Ansible keys "
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367 &&
-    echo "Ansible keys added."
-    echo ""
-    echo "Adding latest Ansible repo to /etc/apt/sources.list "
-    sudo sh -c "echo 'deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main' >> /etc/apt/sources.list"
-else
-    echo "Ansible already installed"
-fi
-
 if ! hash ansible >/dev/null 2>&1; then
     echo "Installing Ansible..."
     sudo apt-get update &&
