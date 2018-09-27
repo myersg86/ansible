@@ -2,7 +2,7 @@
 set -v
 
 # Install git & dependencies/recommended (debian/ubuntu)
-yum update -y &&
-yum install -y git vim python epel-release &&
-yum update -y &&
-yum install -y ansible
+yum -y update &&
+yum -y install git vim python epel-release &&
+yum -y update &&
+yum -y install ansible
