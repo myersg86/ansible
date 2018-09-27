@@ -1,7 +1,7 @@
 #!/bin/bash
 set -v
 
-# Install git & dependencies/recommended (debian/ubuntu)
+# Install git & dependencies/recommended
 sudo apt update
 sudo apt-get install -y apt aptitude build-essentials dirmngr git git-core software-properties-common
 
