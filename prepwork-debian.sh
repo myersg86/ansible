@@ -2,8 +2,8 @@
 set -v
 
 # Install git & dependencies/recommended (debian/ubuntu)
-sudo apt update
-sudo apt-get install -y apt aptitude build-essentials dirmngr git git-core software-properties-common
+sudo apt update &&
+sudo apt-get install -y apt aptitude build-essentials dirmngr git git-core software-properties-common &&
 
 # Install ansible (ubuntu)
 if ! grep -q "ansible/ansible" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
