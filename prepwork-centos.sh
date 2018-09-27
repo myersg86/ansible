@@ -1,7 +1,7 @@
 #!/bin/bash
 set -v
 
-# Install git & dependencies/recommended (centos)
+# Enable EPEL, install git & base dependencies (centos)
 yum -y install git vim python epel-release
 yum -y update
 yum -y install ansible
