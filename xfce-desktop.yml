@@ -13,3 +13,4 @@
   - include: roles/common/tasks/restricted-extras.yml
   - include: roles/common/tasks/external-ip.yml
   - include: roles/common/tasks/cleanup.yml
+  - include: roles/common/tasks/nomachine.yml
