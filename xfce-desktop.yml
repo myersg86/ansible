@@ -14,3 +14,6 @@
   - include: roles/common/tasks/external-ip.yml
   - include: roles/common/tasks/cleanup.yml
   - include: roles/common/tasks/nomachine.yml
+  - include: roles/common/tasks/snap/sublime.yml
+  - include: roles/common/tasks/snap/chromium.yml
+  - include: roles/common/tasks/snap/vscode.yml
