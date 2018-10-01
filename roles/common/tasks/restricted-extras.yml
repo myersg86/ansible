@@ -1,5 +1,4 @@
 - name: install ubuntu-restricted-extras
-  apt: 
+  apt:
     name: ubuntu-restricted-extras
     update_cache: yes
-  
