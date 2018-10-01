@@ -1,0 +1,4 @@
+- name: install midnight commander terminal-based file-manager
+  apt:
+    name: mc
+    update_cache: yes
