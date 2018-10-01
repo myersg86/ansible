@@ -1,7 +1,7 @@
-# Standards: 2.5
+# Standards: 2.6
 ---
-#
-- name: install desktop packages
+# Install xfce4 desktop & xfce-goodies
+- name: install xfce4 desktop & xfce-goodies packages
   apt:
     name: '{{ item }}'
     state: present
