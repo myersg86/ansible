@@ -11,4 +11,5 @@
   - include: roles/common/tasks/update.yml
   - include: roles/common/tasks/upgrade.yml
   - include: roles/common/tasks/snap/snapd.yml
+  - include: roles/common/tasks/snap/nextcloud-server.yml
   - include: roles/common/tasks/cleanup.yml
