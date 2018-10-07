@@ -1,0 +1,10 @@
+# Standards: 2.6
+---
+# test.yml - testing & tests playbook
+- hosts: localhost
+  become: yes
+  become_method: su
+  remote_user: root
+  become_user: root
+  connection: local
+  tasks:
