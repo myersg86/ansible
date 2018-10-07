@@ -1,6 +1,6 @@
 # Standards: 2.6
 ---
-# test.yml - testing & tests playbook
+# nextcloud-server.yml - nextlcoud server setup (snapd)
 - hosts: localhost
   become: yes
   become_method: su
