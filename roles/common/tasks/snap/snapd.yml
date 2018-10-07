@@ -1,0 +1,7 @@
+# Standards: 2.6
+---
+# Install snapd
+- name: Install snapd (apt)
+  apt:
+    name: snapd
+    update_cache: yes
