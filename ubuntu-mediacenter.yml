@@ -1,4 +1,4 @@
-# Standards: 2.6
+# Standards: 2.7
 ---
 # ubuntu-mediacenter.yml mediacenter playbook (Kodi/FFMPEG/VLC/MPV)
 - hosts: localhost

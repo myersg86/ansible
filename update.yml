@@ -1,4 +1,4 @@
-# Standards: 2.6
+# Standards: 2.7
 ---
 # update.yml universal updater playbook
 - hosts: localhost

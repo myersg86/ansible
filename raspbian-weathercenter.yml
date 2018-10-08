@@ -1,4 +1,4 @@
-# Standards: 2.6
+# Standards: 2.7
 ---
 # red canyon weathercenter playbook
 - hosts: localhost

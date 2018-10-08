@@ -1,4 +1,4 @@
-# Standards: 2.6
+# Standards: 2.7
 ---
 # PLAYBOOK.yml DESCRIPTION playbook
 - hosts: localhost

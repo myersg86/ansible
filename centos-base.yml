@@ -1,4 +1,4 @@
-# Standards: 2.6
+# Standards: 2.7
 ---
 # centos7 basic setup playbook
 - hosts: localhost

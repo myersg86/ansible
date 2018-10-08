@@ -1,4 +1,4 @@
-# Standards: 2.6
+# Standards: 2.7
 ---
 # ubuntu-server-base.yml ubuntu server basic setup playbook
 - hosts: localhost

@@ -1,4 +1,4 @@
-# Standards: 2.6
+# Standards: 2.7
 ---
 # turn off command warnings for ansible
 - name: turn off command warnings for ansible

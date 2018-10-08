@@ -1,4 +1,4 @@
-# Standards: 2.6
+# Standards: 2.7
 ---
 # nextcloud-server.yml - nextlcoud server setup (snapd)
 - hosts: localhost
