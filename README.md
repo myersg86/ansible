@@ -24,5 +24,5 @@ bash /tmp/prepwork.sh
 
 ### general use:
 ```bash
-ansible-pull -v -U https://github.com/myersg86/ansible.git PLAYBOOK.yml"
+ansible-pull -v -U https://github.com/myersg86/ansible.git PLAYBOOK.yml
 ```
