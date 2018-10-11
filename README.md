@@ -3,20 +3,25 @@ central repo for ansible tasks/plays/playbooks
 
 ## prepwork / initial setup
 
-### ubuntu:
+### Ubuntu:
 ```bash
 curl https://raw.githubusercontent.com/myersg86/ansible/master/prepwork-ubuntu.sh --output /tmp/prepwork.sh &&
 bash /tmp/prepwork.sh
 ```
 
-### debian:
+### Debian:
 ```bash
 curl https://raw.githubusercontent.com/myersg86/ansible/master/prepwork-debian.sh --output /tmp/prepwork.sh &&
 bash /tmp/prepwork.sh
 ```
 
-### centos/rhel
+### CentOS/RedHat
 ```bash
 curl https://raw.githubusercontent.com/myersg86/ansible/master/prepwork-centos.sh --output /tmp/prepwork.sh &&
 bash /tmp/prepwork.sh
 ```
+## usage - plays & playbooks
+
+### general:
+```bash
+ansible-pull -v
