@@ -8,4 +8,4 @@
   become_user: root
   connection: local
   tasks:
-  - include: roles/common/tasks/update.yml
+  - include: roles/common/tasks/xfce-desktop-test.yml
