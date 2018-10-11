@@ -1,5 +1,6 @@
-- name: touch ~/.vimrc
-  command: touch "~/.vimrc"
+- name: stat .vimrc
+  stat: path="~/.vimrc"
+  register: bashrc_stat
 
 - name: Move vimrc to vimrc.backup
   command: mv "~/.vimrc" "~/vimrc.backup"
