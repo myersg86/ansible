@@ -1,12 +1,10 @@
-- name: touch "~/.vimrc"
-  command: touch "~/.vimrc"
-
 - name: stat .vimrc
   stat: path="~/.vimrc"
   register: vimrc_stat
 
 - name: Move vimrc to vimrc.original
   command: mv "~/.vimrc" "~/vimrc.original"
+  when: vimrc_stat.stat.exists
 
 - name: download vimrc
   get_url:
