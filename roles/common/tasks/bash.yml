@@ -2,7 +2,7 @@
   stat: path="~/.bashrc"
   register: bashrc_stat
 
-- name: Move .bashrc to bar
+- name: Move .bashrc to backup
   command: mv "~/.bashrc" "~/bashrc.backup"
   when: bashrc_stat.stat.exists
 
