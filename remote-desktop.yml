@@ -9,6 +9,7 @@
   connection: local
   tasks:
   - include: roles/common/tasks/update.yml
+  - include: roles/common/tasks/ansible/command-warnings-off.yml
   - include: roles/common/tasks/bash.yml
   - include: roles/common/tasks/vim.yml
   - include: roles/common/tasks/xfce-desktop.yml
