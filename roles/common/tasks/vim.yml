@@ -1,3 +1,6 @@
+- name: touch ~/.vimrc
+  command: touch "~/.vimrc"
+
 - name: Move vimrc to vimrc.backup
   command: mv "~/.vimrc" "~/vimrc.backup"
 
