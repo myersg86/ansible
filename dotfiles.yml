@@ -8,4 +8,5 @@
   become_user: root
   connection: local
   tasks:
-  - include: roles/common/tasks/update.yml
+  - include: roles/common/tasks/bash.yml
+  - include: roles/common/tasks/vim.yml
