@@ -1,0 +1,9 @@
+# Standards: 2.7
+---
+# Install xfce4 desktop & xfce-goodies
+- name: install xfce4 desktop & xfce-goodies packages
+  apt:
+    name: ['xfce4', 'xfce4-goodies']
+    state: present
+    update_cache: yes
+  become: yes
