@@ -22,6 +22,7 @@ bash /tmp/prepwork.sh
 ```
 ## usage - plays & playbooks
 
-### general:
+### general use:
 ```bash
-ansible-pull -v
+ansible-pull -v -U https://github.com/myersg86/ansible.git PLAYBOOK.yml"
+```
