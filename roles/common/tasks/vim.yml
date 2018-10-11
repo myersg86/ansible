@@ -5,8 +5,8 @@
   stat: path="~/.vimrc"
   register: vimrc_stat
 
-- name: Move vimrc to vimrc.backup
-  command: mv "~/.vimrc" "~/vimrc.backup"
+- name: Move vimrc to vimrc.original
+  command: mv "~/.vimrc" "~/vimrc.original"
 
 - name: download vimrc
   get_url:
