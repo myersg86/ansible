@@ -9,3 +9,7 @@
   connection: local
   tasks:
   - include: roles/common/tasks/update.yml
+  - include: roles/common/tasks/xfce-desktop.yml
+  - include: roles/common/tasks/restricted-extras.yml
+  - include: roles/common/tasks/external-ip.yml
+  - include: roles/common/tasks/cleanup.yml
