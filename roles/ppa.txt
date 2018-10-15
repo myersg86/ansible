@@ -1,0 +1,2 @@
+sudo add-apt-repository ppa:ultradvorka/ppa
+sudo add-apt-repository ppa:amanusk/python-s-tui
